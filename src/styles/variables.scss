@@ -1,0 +1,40 @@
+//button
+$btn-font-size: 14px;
+$btn-radius: 6px;
+$btn-font-weight: 500;
+$btn-font-family: "Noto Sans JP", sans-serif;
+$btn-size: 8px 16px;
+$btn-transition: 0.3s ease-out;
+
+///button -> variants
+$default-btn-background: #e0e0e0;
+$default-btn-hover: #aeaeae;
+$default-btn-font-color: #3f3f3f;
+$default-btn-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+
+$outline-btn-background: white;
+$outline-btn-hover: rgba(41, 98, 255, 0.1);
+$outline-btn-font-color: #3d5afe;
+$outline-btn-border: 1px solid #3d5afe;
+
+$text-btn-background: transparent;
+$text-btn-hover: rgba(41, 98, 255, 0.1);
+$text-btn-font-color: #3d5afe;
+
+///button -> colors
+$default-color: #e0e0e0;
+$default-hover-color: #aeaeae;
+$primary-color: #2962ff;
+$primary-hover-color: #0039cb;
+$primary-font-color: white;
+$secondary-color: #455a64;
+$secondary-hover-color: #1c313a;
+$secondary-font-color: white;
+$danger-color: #d32f2f;
+$danger-hover-color: #9a0007;
+$danger-font-color: white;
+
+///button -> sizes
+$small-btn-size: 6px 12px;
+$medium-btn-size: 8px 16px;
+$large-btn-size: 11px 22px;
