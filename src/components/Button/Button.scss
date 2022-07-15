@@ -6,6 +6,10 @@
   font-family: $btn-font-family;
   font-weight: $btn-font-weight;
   transition: $btn-transition;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  box-shadow: $default-btn-shadow;
 
   //variants
   &--default {
@@ -21,6 +25,7 @@
     background-color: $outline-btn-background;
     border: $outline-btn-border;
     color: $outline-btn-font-color;
+    box-shadow: none;
 
     &:hover {
       background-color: $outline-btn-hover;
@@ -30,6 +35,7 @@
   &--text {
     background-color: $text-btn-background;
     color: $text-btn-font-color;
+    box-shadow: none;
 
     &:hover {
       background-color: $text-btn-hover;
@@ -53,6 +59,7 @@
   &--primary {
     background-color: $primary-color;
     color: $primary-font-color;
+    box-shadow: $primary-shadow;
 
     &:hover {
       background-color: $primary-hover-color;
@@ -62,6 +69,7 @@
   &--secondary {
     background-color: $secondary-color;
     color: $secondary-font-color;
+    box-shadow: $secondary-shadow;
 
     &:hover {
       background-color: $secondary-hover-color;
@@ -71,9 +79,32 @@
   &--danger {
     background-color: $danger-color;
     color: $danger-font-color;
+    box-shadow: $danger-shadow;
 
     &:hover {
       background-color: $danger-hover-color;
     }
+  }
+
+  //with icons
+  &--left-icon {
+    box-shadow: $icon-button-shadow;
+  }
+
+  &--right-icon {
+    flex-direction: row-reverse;
+    box-shadow: $icon-button-shadow;
+  }
+
+  &--shadow-off {
+    box-shadow: none;
+  }
+
+  &--disabled {
+    background-color: $default-btn-background;
+    box-shadow: none;
+    cursor: not-allowed;
+    transition: none;
+    pointer-events: none;
   }
 }
