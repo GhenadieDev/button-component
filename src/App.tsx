@@ -25,6 +25,53 @@ function App() {
         <Button color="secondary">Secondary</Button>
         <Button color="danger">danger</Button>
       </div>
+      <p>with icons</p>
+      <div className="btn-wrapper">
+        <Button
+          color="primary"
+          icon={<span className="material-icons">face</span>}
+          iconPosition="left"
+        >
+          Primary
+        </Button>
+        <Button
+          color="primary"
+          icon={<span className="material-icons">face</span>}
+          iconPosition="right"
+        >
+          Primary
+        </Button>
+        <Button
+          color="primary"
+          icon={<span className="material-icons">search</span>}
+        >
+          Primary
+        </Button>
+        <Button
+          color="primary"
+          icon={<span className="material-icons">search</span>}
+          iconPosition="right"
+        >
+          Primary
+        </Button>
+        <Button
+          color="primary"
+          icon={<span className="material-icons">home</span>}
+        >
+          Primary
+        </Button>
+        <Button
+          color="primary"
+          icon={<span className="material-icons">home</span>}
+          iconPosition="right"
+        >
+          Primary
+        </Button>
+      </div>
+      <p>disabled button</p>
+      <div className="btn-wrapper">
+        <Button isDisabled={true}>Disabled</Button>
+      </div>
     </div>
   );
 }

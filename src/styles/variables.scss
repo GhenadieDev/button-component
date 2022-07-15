@@ -12,7 +12,7 @@ $default-btn-hover: #aeaeae;
 $default-btn-font-color: #3f3f3f;
 $default-btn-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 
-$outline-btn-background: white;
+$outline-btn-background: transparent;
 $outline-btn-hover: rgba(41, 98, 255, 0.1);
 $outline-btn-font-color: #3d5afe;
 $outline-btn-border: 1px solid #3d5afe;
@@ -33,6 +33,12 @@ $secondary-font-color: white;
 $danger-color: #d32f2f;
 $danger-hover-color: #9a0007;
 $danger-font-color: white;
+
+//button -> shadows
+$icon-button-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+$primary-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+$secondary-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+$danger-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
 
 ///button -> sizes
 $small-btn-size: 6px 12px;
