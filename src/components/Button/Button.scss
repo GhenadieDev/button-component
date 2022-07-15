@@ -1,0 +1,79 @@
+@import "../../styles/variables.scss";
+
+.button {
+  padding: $btn-size;
+  border-radius: $btn-radius;
+  font-family: $btn-font-family;
+  font-weight: $btn-font-weight;
+  transition: $btn-transition;
+
+  //variants
+  &--default {
+    box-shadow: $default-btn-shadow;
+    font-size: $btn-font-size;
+
+    &:hover {
+      background-color: $default-btn-hover;
+    }
+  }
+
+  &--outline {
+    background-color: $outline-btn-background;
+    border: $outline-btn-border;
+    color: $outline-btn-font-color;
+
+    &:hover {
+      background-color: $outline-btn-hover;
+    }
+  }
+
+  &--text {
+    background-color: $text-btn-background;
+    color: $text-btn-font-color;
+
+    &:hover {
+      background-color: $text-btn-hover;
+    }
+  }
+
+  //sizes
+  &--sm {
+    padding: $small-btn-size;
+  }
+
+  &--md {
+    padding: $medium-btn-size;
+  }
+
+  &--lg {
+    padding: $large-btn-size;
+  }
+
+  //color
+  &--primary {
+    background-color: $primary-color;
+    color: $primary-font-color;
+
+    &:hover {
+      background-color: $primary-hover-color;
+    }
+  }
+
+  &--secondary {
+    background-color: $secondary-color;
+    color: $secondary-font-color;
+
+    &:hover {
+      background-color: $secondary-hover-color;
+    }
+  }
+
+  &--danger {
+    background-color: $danger-color;
+    color: $danger-font-color;
+
+    &:hover {
+      background-color: $danger-hover-color;
+    }
+  }
+}
